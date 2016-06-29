@@ -2,7 +2,7 @@ var quoteMachine = {
     quoteArray: [],
     count: 0,
     init: function(){
-        $.getJSON("http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=40&callback=", function(data) {
+        $.getJSON("https://cors-anywhere.herokuapp.com/http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=40&callback=", function(data) {
             quoteMachine.quoteArray = data;
             quoteMachine.placeQuote();
             $("#buttons").css("visibility", "visible");
