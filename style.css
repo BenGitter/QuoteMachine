@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(255,220,220);
+}
+#content{
+    min-height: 100px;
+    min-width: 280px;
+    background-color: rgb(250, 100, 100);
+    margin-top: 50px;
+    border-radius: 5px;
+}
+#quoteContent{
+    padding-top: 20px;
+    color: white;
+}
+#quoteTitle{
+    text-align: right;
+    margin-bottom: 20px;
+    color: rgb(100,20,20);
+    font-weight: bolder;
+}
+#buttons{
+    margin-bottom: 10px;
+    visibility: hidden;
+    color: rgb(100,20,20);
+}
+#buttons button:hover{
+    background-color: rgb(255,220,220);
+}
+#buttons button:focus{
+    outline: 0;
+}
